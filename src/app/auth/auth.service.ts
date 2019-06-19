@@ -1,3 +1,4 @@
+/*
 import { Injectable } from '@angular/core';
 import { HttpClient } from  '@angular/common/http' //HttpClient for sending POST request to the Express server that handles authentication
 import { tap } from  'rxjs/operators';//The tap() operator for performing side effects when subscribing to the observables returned by the HttpClient methods,
@@ -53,3 +54,4 @@ export class AuthService {
     return this.authSubject.asObservable();
   }
 }
+*/

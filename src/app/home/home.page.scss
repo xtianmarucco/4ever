@@ -1,1 +1,69 @@
 
+#title-login{
+
+    color: white;
+    padding-top: 73px;
+    padding-left: 10px;
+    margin-bottom: 0px;
+    margin: 0px;
+    font-size: 50px;
+    text-shadow: 4px 4px #000000;
+    
+
+}
+
+ #username{
+
+    padding-top: 70px;
+}
+
+
+
+.header{
+
+    height: 105px;
+    width: 100%;
+    background-color: #000000;
+    padding: 0px;
+    margin: 0px;
+
+}
+.sub-header{
+
+    height: 35px;
+    width: 100%;
+    background-color: grey;
+}
+
+@keyframes slideInRight {
+    from {
+      -webkit-transform: translate3d(100%, 0, 0);
+      transform: translate3d(100%, 0, 0);
+      visibility: visible;
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+#title-login{
+
+  animation: slideInRight 1s ;
+}
+
+#beating-btn{
+
+    animation: beat .45s infinite alternate;
+	transform-origin: center;
+}
+@keyframes beat{
+	to { transform: scale(1.2); }
+}
+ @keyframes slideUp {
+ 
+	to {transform: translateY(0)}
+ from{ transform: translateY(200px)}
+
+ }
